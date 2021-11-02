@@ -1,0 +1,1425 @@
+[35m[Appium][39m Welcome to Appium v1.20.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 53572
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\user\AppData\Local\Temp\\Katalon\Appium\Temp1635800026966
+[35m[Appium][39m   chromedriverPort: 53573
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 53573
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:53572
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m14 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\user\\Desktop\\carbon\\carbon_ng-v6.7.1_signed.apk","noReset":false,"deviceId":"","deviceName":"TECNO MOBILE LIMITED TECNO KD7 (Android 10)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"10","automationName":"UiAutomator2","autoGrantPermissions":true,"platformName":"Android","udid":"060403712G006230","systemPort":53571},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\user\\Desktop\\carbon\\carbon_ng-v6.7.1_signed.apk","appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","deviceId":"","appium:deviceName":"TECNO MOBILE LIMITED TECNO KD7 (Android 10)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"10","appium:systemPort":53571,"appium:udid":"060403712G006230"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.20.2 creating new AndroidUiautomator2Driver (v1.61.2) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 6196cb28-8dd9-4524-b561-fb833ff5543e
+[35m[BaseDriver][39m Using local app 'C:\Users\user\Desktop\carbon\carbon_ng-v6.7.1_signed.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\user\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/user/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\user\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 060403712G006230
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\user\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.lenddo.mobile.paylater.staging'
+[35m[ADB][39m Main activity name: 'com.lenddo.mobile.paylater.home.activity.SplashScreenActivity'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\user\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.17.4.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'C:\Users\user\Desktop\carbon\carbon_ng-v6.7.1_signed.apk' is signed with a non-default certificate
+[35m[ADB][39m com.lenddo.mobile.paylater.staging was not uninstalled, because it was not present on the device
+[35m[ADB][39m The application at 'C:\Users\user\Desktop\carbon\carbon_ng-v6.7.1_signed.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'carbon_ng-v6.7.1_signed.apk' took 6478ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.17.4
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.17.4.apk' and test from 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.lenddo.mobile.paylater.staging/com.lenddo.mobile.paylater.home.activity.SplashScreenActivity and waiting for 'com.lenddo.mobile.paylater.staging/com.lenddo.mobile.paylater.home.activity.SplashScreenActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 6196cb28-8dd9-4524-b561-fb833ff5543e added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m27958 ms - 1362[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e [39m[32m200[39m [90m27 ms - 1316[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e [39m[32m200[39m [90m19 ms - 1316[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/screenshot [39m[32m200[39m [90m790 ms - 31960[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/window/rect [39m[32m200[39m [90m27 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/appium/device/system_bars [39m[32m200[39m [90m146 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/window/rect [39m[32m200[39m [90m23 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m175 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m124 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m428 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m620 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m934 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/47c369a4-e05b-47c2-abd7-ec9000e625d0/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6196cb28)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 70e92769-b971-4752-afc0-e5a5fca29aff with 6196cb28-8dd9-4524-b561-fb833ff5543e
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/47c369a4-e05b-47c2-abd7-ec9000e625d0/location [39m[32m200[39m [90m36 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"47c369a4-e05b-47c2-abd7-ec9000e625d0"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 47c369a4-e05b-47c2-abd7-ec9000e625d0
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/touch/perform [39m[32m200[39m [90m224 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/window/rect [39m[32m200[39m [90m21 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m1113 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m97 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m652 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m69 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m641 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m656 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m636 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/625ce966-857a-4b63-85be-d0e712fe96de/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6196cb28)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 70e92769-b971-4752-afc0-e5a5fca29aff with 6196cb28-8dd9-4524-b561-fb833ff5543e
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/625ce966-857a-4b63-85be-d0e712fe96de/location [39m[32m200[39m [90m614 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"625ce966-857a-4b63-85be-d0e712fe96de"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 625ce966-857a-4b63-85be-d0e712fe96de
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/touch/perform [39m[32m200[39m [90m222 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/window/rect [39m[32m200[39m [90m19 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Phone number' or . = 'Phone number') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/sign_in_phone']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m310 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/cbf489a8-2f48-43a7-b63c-97ea94aee26f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6196cb28)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 70e92769-b971-4752-afc0-e5a5fca29aff with 6196cb28-8dd9-4524-b561-fb833ff5543e
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/cbf489a8-2f48-43a7-b63c-97ea94aee26f/location [39m[32m200[39m [90m487 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/cbf489a8-2f48-43a7-b63c-97ea94aee26f/clear[39m
+[35m[HTTP][39m [90m{"id":"cbf489a8-2f48-43a7-b63c-97ea94aee26f"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/cbf489a8-2f48-43a7-b63c-97ea94aee26f/clear [39m[32m200[39m [90m66 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/cbf489a8-2f48-43a7-b63c-97ea94aee26f/value[39m
+[35m[HTTP][39m [90m{"id":"cbf489a8-2f48-43a7-b63c-97ea94aee26f","text":"08990001100","value":["0","8","9","9","0","0","0","1","1","0","0"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/cbf489a8-2f48-43a7-b63c-97ea94aee26f/value [39m[32m200[39m [90m1594 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/window/rect [39m[32m200[39m [90m20 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter PIN' or . = 'Enter PIN') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/sign_in_pin']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m755 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/7e621d52-fbbb-4821-ac58-54c6a5bd356d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6196cb28)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 70e92769-b971-4752-afc0-e5a5fca29aff with 6196cb28-8dd9-4524-b561-fb833ff5543e
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/7e621d52-fbbb-4821-ac58-54c6a5bd356d/location [39m[32m200[39m [90m33 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"7e621d52-fbbb-4821-ac58-54c6a5bd356d"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 7e621d52-fbbb-4821-ac58-54c6a5bd356d
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/touch/perform [39m[32m200[39m [90m235 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/window/rect [39m[32m200[39m [90m38 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter PIN' or . = 'Enter PIN') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/sign_in_pin']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m811 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/1be7d970-e4de-4058-9288-40f92706e27e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6196cb28)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 70e92769-b971-4752-afc0-e5a5fca29aff with 6196cb28-8dd9-4524-b561-fb833ff5543e
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/1be7d970-e4de-4058-9288-40f92706e27e/location [39m[32m200[39m [90m51 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/1be7d970-e4de-4058-9288-40f92706e27e/clear[39m
+[35m[HTTP][39m [90m{"id":"1be7d970-e4de-4058-9288-40f92706e27e"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/1be7d970-e4de-4058-9288-40f92706e27e/clear [39m[32m200[39m [90m73 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/1be7d970-e4de-4058-9288-40f92706e27e/value[39m
+[35m[HTTP][39m [90m{"id":"1be7d970-e4de-4058-9288-40f92706e27e","text":"1234","value":["1","2","3","4"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/1be7d970-e4de-4058-9288-40f92706e27e/value [39m[32m200[39m [90m1513 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/window/rect [39m[32m200[39m [90m16 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign in' or . = 'Sign in') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/sign_in_next']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/elements [39m[32m200[39m [90m483 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/87b522f7-18b5-40fd-a37d-5f00def6a1c3/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6196cb28)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 70e92769-b971-4752-afc0-e5a5fca29aff with 6196cb28-8dd9-4524-b561-fb833ff5543e
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/element/87b522f7-18b5-40fd-a37d-5f00def6a1c3/location [39m[32m200[39m [90m39 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"87b522f7-18b5-40fd-a37d-5f00def6a1c3"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 87b522f7-18b5-40fd-a37d-5f00def6a1c3
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6196cb28-8dd9-4524-b561-fb833ff5543e/touch/perform [39m[32m200[39m [90m183 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\user\\Desktop\\carbon\\carbon_ng-v6.7.1_signed.apk","noReset":false,"deviceId":"","deviceName":"TECNO MOBILE LIMITED TECNO KD7 (Android 10)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"10","automationName":"UiAutomator2","autoGrantPermissions":true,"platformName":"Android","udid":"060403712G006230","systemPort":53737},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\user\\Desktop\\carbon\\carbon_ng-v6.7.1_signed.apk","appium:autoGrantPermissions":true,"appium:automationName":"UiAutomator2","deviceId":"","appium:deviceName":"TECNO MOBILE LIMITED TECNO KD7 (Android 10)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"10","appium:systemPort":53737,"appium:udid":"060403712G006230"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.20.2 creating new AndroidUiautomator2Driver (v1.61.2) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[BaseDriver][39m Using local app 'C:\Users\user\Desktop\carbon\carbon_ng-v6.7.1_signed.apk'
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\user\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 060403712G006230
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\user\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.lenddo.mobile.paylater.staging'
+[35m[ADB][39m Main activity name: 'com.lenddo.mobile.paylater.home.activity.SplashScreenActivity'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\user\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.17.4.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'C:\Users\user\Desktop\carbon\carbon_ng-v6.7.1_signed.apk' is signed with a non-default certificate
+[35m[ADB][39m com.lenddo.mobile.paylater.staging was successfully uninstalled
+[35m[ADB][39m The application at 'C:\Users\user\Desktop\carbon\carbon_ng-v6.7.1_signed.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'carbon_ng-v6.7.1_signed.apk' took 6574ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.17.4
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.17.4.apk' and test from 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.lenddo.mobile.paylater.staging/com.lenddo.mobile.paylater.home.activity.SplashScreenActivity and waiting for 'com.lenddo.mobile.paylater.staging/com.lenddo.mobile.paylater.home.activity.SplashScreenActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 18d82694-bc9a-4de8-8214-ba1deb2f1402 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m27062 ms - 1362[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402 [39m[32m200[39m [90m29 ms - 1316[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402 [39m[32m200[39m [90m18 ms - 1316[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/screenshot [39m[32m200[39m [90m1054 ms - 30716[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m21 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/appium/device/system_bars [39m[32m200[39m [90m167 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m19 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m198 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m528 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Skip' or . = 'Skip') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/tutorial_skip']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m1504 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/f628f024-8232-4cb8-b1b6-3ef0f308fd52/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (18d82694)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 50d9da13-39d5-45b5-873c-bd92a4dc103e with 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/f628f024-8232-4cb8-b1b6-3ef0f308fd52/location [39m[32m200[39m [90m53 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"f628f024-8232-4cb8-b1b6-3ef0f308fd52"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: f628f024-8232-4cb8-b1b6-3ef0f308fd52
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform [39m[32m200[39m [90m202 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m19 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m1278 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m70 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m67 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m894 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m632 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign In' or . = 'Sign In') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/user_type_existing']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m92 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/c478b78b-d322-4b52-a34c-44ac4facb569/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (18d82694)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 50d9da13-39d5-45b5-873c-bd92a4dc103e with 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/c478b78b-d322-4b52-a34c-44ac4facb569/location [39m[32m200[39m [90m484 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"c478b78b-d322-4b52-a34c-44ac4facb569"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: c478b78b-d322-4b52-a34c-44ac4facb569
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform [39m[32m200[39m [90m313 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m21 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Phone number' or . = 'Phone number') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/sign_in_phone']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m469 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/8d4b960f-326b-4ed5-83cd-596b63ed7eef/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (18d82694)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 50d9da13-39d5-45b5-873c-bd92a4dc103e with 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/8d4b960f-326b-4ed5-83cd-596b63ed7eef/location [39m[32m200[39m [90m494 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/8d4b960f-326b-4ed5-83cd-596b63ed7eef/clear[39m
+[35m[HTTP][39m [90m{"id":"8d4b960f-326b-4ed5-83cd-596b63ed7eef"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/8d4b960f-326b-4ed5-83cd-596b63ed7eef/clear [39m[32m200[39m [90m70 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/8d4b960f-326b-4ed5-83cd-596b63ed7eef/value[39m
+[35m[HTTP][39m [90m{"id":"8d4b960f-326b-4ed5-83cd-596b63ed7eef","text":"08990001100","value":["0","8","9","9","0","0","0","1","1","0","0"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/8d4b960f-326b-4ed5-83cd-596b63ed7eef/value [39m[32m200[39m [90m1432 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m56 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter PIN' or . = 'Enter PIN') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/sign_in_pin']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m448 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/c8d21e0e-4e9b-4494-9db5-5fc1f441368d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (18d82694)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 50d9da13-39d5-45b5-873c-bd92a4dc103e with 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/c8d21e0e-4e9b-4494-9db5-5fc1f441368d/location [39m[32m200[39m [90m51 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"c8d21e0e-4e9b-4494-9db5-5fc1f441368d"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: c8d21e0e-4e9b-4494-9db5-5fc1f441368d
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform [39m[32m200[39m [90m304 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m21 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Enter PIN' or . = 'Enter PIN') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/sign_in_pin']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m1280 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/733910b3-0749-4629-ad4d-85842b3c8203/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (18d82694)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 50d9da13-39d5-45b5-873c-bd92a4dc103e with 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/733910b3-0749-4629-ad4d-85842b3c8203/location [39m[32m200[39m [90m53 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/733910b3-0749-4629-ad4d-85842b3c8203/clear[39m
+[35m[HTTP][39m [90m{"id":"733910b3-0749-4629-ad4d-85842b3c8203"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/733910b3-0749-4629-ad4d-85842b3c8203/clear [39m[32m200[39m [90m65 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/733910b3-0749-4629-ad4d-85842b3c8203/value[39m
+[35m[HTTP][39m [90m{"id":"733910b3-0749-4629-ad4d-85842b3c8203","text":"1234","value":["1","2","3","4"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/733910b3-0749-4629-ad4d-85842b3c8203/value [39m[32m200[39m [90m1334 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m15 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Sign in' or . = 'Sign in') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/sign_in_next']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m505 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/62598c66-12ce-42de-b8f7-2d6c0fd517d7/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (18d82694)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 50d9da13-39d5-45b5-873c-bd92a4dc103e with 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/62598c66-12ce-42de-b8f7-2d6c0fd517d7/location [39m[32m200[39m [90m31 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"62598c66-12ce-42de-b8f7-2d6c0fd517d7"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 62598c66-12ce-42de-b8f7-2d6c0fd517d7
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform [39m[32m200[39m [90m1079 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/context [39m[32m200[39m [90m2 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[AndroidDriver][39m Not collecting web view details. Details collection might help to make Chromedriver initialization more precise. Use the 'enableWebviewDetailsCollection' cap to turn it on
+[35m[AndroidDriver][39m Skipping the webview 'WEBVIEW_12553' at '@webview_devtools_remote_12553' since it has reported having zero pages
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/contexts [39m[32m200[39m [90m959 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/appium/device/press_keycode[39m
+[35m[HTTP][39m [90m{"keycode":4}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/appium/device/press_keycode [39m[32m200[39m [90m80 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m23 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m80 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m665 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m67 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m74 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m2465 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m697 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m2040 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/94da060c-d0fc-4952-b097-9874e3dbc6de/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (18d82694)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 50d9da13-39d5-45b5-873c-bd92a4dc103e with 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/94da060c-d0fc-4952-b097-9874e3dbc6de/location [39m[32m200[39m [90m46 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"94da060c-d0fc-4952-b097-9874e3dbc6de"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 94da060c-d0fc-4952-b097-9874e3dbc6de
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform [39m[32m200[39m [90m250 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m15 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m1217 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m1110 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m69 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m69 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'e.g 08031234567' or . = 'e.g 08031234567') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/edit_text_phone_number']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m1795 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/38f1ad1a-63e5-4698-9c2d-9fce2e7cb8fc/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (18d82694)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 50d9da13-39d5-45b5-873c-bd92a4dc103e with 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/38f1ad1a-63e5-4698-9c2d-9fce2e7cb8fc/location [39m[32m200[39m [90m397 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/38f1ad1a-63e5-4698-9c2d-9fce2e7cb8fc/clear[39m
+[35m[HTTP][39m [90m{"id":"38f1ad1a-63e5-4698-9c2d-9fce2e7cb8fc"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/38f1ad1a-63e5-4698-9c2d-9fce2e7cb8fc/clear [39m[32m200[39m [90m73 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/38f1ad1a-63e5-4698-9c2d-9fce2e7cb8fc/value[39m
+[35m[HTTP][39m [90m{"id":"38f1ad1a-63e5-4698-9c2d-9fce2e7cb8fc","text":"08990001100","value":["0","8","9","9","0","0","0","1","1","0","0"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/38f1ad1a-63e5-4698-9c2d-9fce2e7cb8fc/value [39m[32m200[39m [90m1944 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m20 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '1000' or . = '1000') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/text_view_amount_item']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m572 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/47f7d211-8e25-4600-b261-03c13dfff5e2/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (18d82694)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 50d9da13-39d5-45b5-873c-bd92a4dc103e with 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/47f7d211-8e25-4600-b261-03c13dfff5e2/location [39m[32m200[39m [90m31 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"47f7d211-8e25-4600-b261-03c13dfff5e2"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 47f7d211-8e25-4600-b261-03c13dfff5e2
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform [39m[32m200[39m [90m1584 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m36 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/androidx.viewpager.widget.ViewPager[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.FrameLayout[1]/android.widget.GridView[1]/android.widget.FrameLayout[2]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m438 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/d1b11eb5-ab62-4eb2-9c47-d9ee9decf684/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (18d82694)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 50d9da13-39d5-45b5-873c-bd92a4dc103e with 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/d1b11eb5-ab62-4eb2-9c47-d9ee9decf684/location [39m[32m200[39m [90m54 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"d1b11eb5-ab62-4eb2-9c47-d9ee9decf684"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: d1b11eb5-ab62-4eb2-9c47-d9ee9decf684
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform [39m[32m200[39m [90m961 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m34 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Next' or . = 'Next') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/button_next']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m305 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/9cc03472-6843-4bd4-ad03-4291eea713b7/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (18d82694)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 50d9da13-39d5-45b5-873c-bd92a4dc103e with 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/9cc03472-6843-4bd4-ad03-4291eea713b7/location [39m[32m200[39m [90m37 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"9cc03472-6843-4bd4-ad03-4291eea713b7"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 9cc03472-6843-4bd4-ad03-4291eea713b7
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform [39m[32m200[39m [90m1033 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m23 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RadioButton[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m1814 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RadioButton[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RadioButton[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m775 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/0f0ab0cc-8935-4276-85a0-a2e8ea1baeda/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (18d82694)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 50d9da13-39d5-45b5-873c-bd92a4dc103e with 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/0f0ab0cc-8935-4276-85a0-a2e8ea1baeda/location [39m[32m200[39m [90m35 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"0f0ab0cc-8935-4276-85a0-a2e8ea1baeda"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 0f0ab0cc-8935-4276-85a0-a2e8ea1baeda
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform [39m[32m200[39m [90m181 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m17 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Confirm payment' or . = 'Confirm payment') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/confirm_payment_button']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m437 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/3db8b38d-3fa2-4480-9e25-76564f26cfb4/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (18d82694)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 50d9da13-39d5-45b5-873c-bd92a4dc103e with 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/3db8b38d-3fa2-4480-9e25-76564f26cfb4/location [39m[32m200[39m [90m32 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"3db8b38d-3fa2-4480-9e25-76564f26cfb4"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: 3db8b38d-3fa2-4480-9e25-76564f26cfb4
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform [39m[32m200[39m [90m181 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/window/rect [39m[32m200[39m [90m15 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Securely pay ₦ 1,010.00' or . = 'Securely pay ₦ 1,010.00') and @resource-id = 'com.lenddo.mobile.paylater.staging:id/button_text_secure_pay']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/elements [39m[32m200[39m [90m1040 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/d875600b-7e0b-4180-aa5c-d3d52ef5c0da/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (18d82694)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 50d9da13-39d5-45b5-873c-bd92a4dc103e with 18d82694-bc9a-4de8-8214-ba1deb2f1402
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/element/d875600b-7e0b-4180-aa5c-d3d52ef5c0da/location [39m[32m200[39m [90m538 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"d875600b-7e0b-4180-aa5c-d3d52ef5c0da"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: d875600b-7e0b-4180-aa5c-d3d52ef5c0da
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402/touch/perform [39m[32m200[39m [90m185 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 18d82694-bc9a-4de8-8214-ba1deb2f1402 from our master session list
+[35m[ADB][39m com.lenddo.mobile.paylater.staging was successfully uninstalled
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/18d82694-bc9a-4de8-8214-ba1deb2f1402 [39m[32m200[39m [90m2685 ms - 14[39m
+[35m[HTTP][39m [90m[39m
