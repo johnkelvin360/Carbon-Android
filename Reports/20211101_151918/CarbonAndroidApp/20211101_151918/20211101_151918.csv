@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-CarbonAndroidApp,,,,2021-11-01 15:19:33,2021-11-01 15:19:36,3.299s,FAILED
-,,,,,,,
-Test Cases/carbon_signin,,,,2021-11-01 15:19:35,2021-11-01 15:19:36,1.563s,FAILED
-"startApplication(""C:\Users\user\Desktop\carbon\carbon_ng-v6.7.1_signed.apk"", true)",,,,2021-11-01 15:19:35,2021-11-01 15:19:36,0.568s,FAILED
